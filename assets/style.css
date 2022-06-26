@@ -14,11 +14,22 @@ body {
   background-color: whitesmoke;
 }
 #display {
+  height: 120px;
   text-align: right;
-  height: 100px;
-  line-height: 70px;
-  padding: 16px 8px;
-  font-size: 25px;
+  font-size: 35px;
+  margin: 30px 20px;
+}
+#history {
+  font-size: 20px;
+  color: #919191;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+}
+#output {
+  font-size: 35px;
+  height: 60px;
+  margin: 30px 20px;
 }
 .buttons {
   display: grid;
